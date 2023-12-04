@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module1</title>
+    <style>
+     * {
+            box-sizing: border-box;
+        }
+.head {
+    padding: 50px;
+    text-align: center;   
+}
+*{
+    box-sizing: border-box;
+    
+}
+.p1{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 170px;
+    margin: 19px;
+    border: 1px solid black;
+    background-color: gray;
+}
+h3{
+    border: 1px solid black;
+    background-color: rosybrown;
+    float: right;
+    margin-right: -10px;
+    margin-top: -10px;
+    clear: right;
+}
+
+#sushi{
+    width: 80px;
+    text-align: center;
+    background-color: beige;
+}
+#beef{
+    width: 80px;
+    text-align: center;
+    background-color: brown;
+}
+#chicken{
+    width: 80px;
+    text-align: center;
+}
+@media (min-width:992px) {
+    #chicken{
+        width: 33.33%;
+    }
+    #beef{
+        width: 33.33%;
+    }
+    #sushi{
+        width: 33.33%;
+    }
+}
+    @media (min-width:768px) and (max-width:991px){
+        #chicken{
+        width: 25%;
+    }
+    #beef{
+        width: 25%;
+    }
+    #sushi{
+        width: 50%;
+    }
+        
+}
+
+    </style>
+</head>
+<body>
+   <h1 class="head">our menu</h1>
+   <div class="row">
+    <div class="p1">
+        <h3 id="chicken">chicken</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum pariatur nulla libero doloremque ipsa asperiores, autem iure sit optio accusamus, eveniet sapiente ea eaque. Odit sed reiciendis dignissimos veritatis dicta.</p>
+   </div>
+   <div class="p1">
+    <h3 id="beef">beef</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex cupiditate recusandae optio dolorem. Numquam obcaecati vitae cumque, cum culpa, nulla doloremque ut, sed quae natus illo quam saepe pariatur ex officia atque dolorum eum fuga itaque esse! A aliquid tenetur similique, molestias ipsam, magnam, autem cumque vero hic repellendus est.</p>
+</div>
+<div class="p1">
+    <h3 id="sushi">sushi</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio debitis eligendi, amet possimus iste, dolorem numquam porro accusamus quibusdam blanditiis officiis quae voluptates error deleniti reiciendis culpa soluta ducimus libero!</p>
+</div>
+
+    
+</body>
+</html>
